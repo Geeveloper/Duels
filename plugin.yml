@@ -1,0 +1,29 @@
+name: Duels
+version: 1.2.0 SNAPSHOT
+description: Allows players to duel with others.
+author: geekles
+
+main: me.geekles.duel.main.Main
+database: false
+depend: [Vault]
+
+commands:
+  duel:
+    description: Allows you to select a duel.
+    aliases: [duel join]
+    permission: duel.join
+    usage: /duel
+  duel quit:
+    description: Allows you to leave a duel.
+    aliases: [duel leave]
+    permission: duel.quit
+    usage: /duel quit
+  duel set lobby:
+    description: Allows you to set the spawn point for a particular lobby.
+    permission: duel.admin
+    usage: /duel set lobby {1v1 || 5v5 || 10v10}
+  duel set arena:
+    description: Allows you to set the spawn point for a particular arena.
+    permission: duel.admin
+    usage: /duel set arena {1v1 || 5v5 || 10v10}
+  

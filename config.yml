@@ -1,0 +1,10 @@
+Duels:
+  1v1:
+    Wager: 5000.00
+    ReturnMoneyToWinner: True
+  5v5:
+    Wager: 5000.00
+    ReturnMoneyToWinner: False
+  10v10:
+    Wager: 5000.00
+    ReturnMoneyToWinner: False
